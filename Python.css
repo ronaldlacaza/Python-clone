@@ -1,0 +1,186 @@
+.container{
+    width: 970px;
+    min-height: 680px;
+    margin: 0px auto;
+}
+    .container .main_content
+    {
+        background-color: rgb(37, 85, 129);
+        width: auto;
+        height: 420px;
+    }
+        .main_content img{
+            width: 280px;
+            height: 100px;
+            display: inline-block;
+            padding: 0px 370px 0px 30px;
+        }
+        .main_content form{
+            background-color: rgb(37, 85, 129);
+            display: inline-block;
+            vertical-align: top;
+            height: 120px;
+            text-align: center;
+            line-height: 5px;
+        }
+            form h1{
+                font-size: 10px;
+                color: white;
+            }
+                h1 a{
+                    color: rgb(212, 157, 16);
+                    padding: 0px 5px;
+                }
+                span{
+                    color: black;
+                    font-size: 20px;
+                    padding: 0px 3px;
+                    margin: 50px 0px 0px 0px;
+                }
+            form h2{
+                background-color:rgb(77, 78, 78);
+                padding: 10px 20px;
+                border-radius: 8px;
+                height: 30px;
+                margin: 0px 0px 40px 0px;
+            }
+                h2 input{
+                    text-align: center;
+                    height: 25px;
+                    width: 30;
+                }
+                span input{
+                    background-color: rgb(37, 85, 129);
+                    padding: 5px;
+                    border-radius: 7px;
+                    height: 30px;
+                    width: 40;
+                    text-align: center;
+                    color: white;
+                }
+        .section ul{
+            background-color: rgb(60, 113, 163);
+            width: 800px;
+            height: 35px;
+            color: white;
+            margin: 0px 70px;
+            border-radius: 7px;
+            padding: 12px 25px 0px;
+        }
+            .section li{
+                display: inline;
+                font-size: 20px;
+                text-align: center;
+                padding: 0px 25px;
+            }
+        .sub_content{
+            width: auto;
+            min-height: 50px; 
+        }
+            .sub_content ul{
+                width: 270px;
+                height: 300;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+            }
+                .sub_content li a{
+                    font-size: 15px;
+                    text-align: center;
+                    color: white;
+                }
+            .sub_content1{
+                width: 470px;
+                height: 280px;
+                display: inline-block;
+                margin-left: 50px;
+                text-align: center;
+                color: white;
+            }
+                .sub_content1 p{
+                    font-size: 12px;
+                    text-align: center;
+                }
+                .sub_content1 h1{
+                    font-size: 15px;
+                    text-align: center;
+                    color: rgb(224, 167, 22);
+                }
+                .sub_content1 h2{
+                    font-size: 10px;
+                    text-align: center;
+                }
+    .container .nav{
+        background-color: white;
+        width: auto;
+        height: 215px;
+    }
+        .sub_nav1{
+            width: 350px;
+            height: 200px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 20px 0px 0px 50px;
+            border-top: 5px solid rgb(111, 181, 209);
+        }
+            .sub_nav1 h1{
+                text-align: center;
+                font-size: 15px;
+            }
+            .sub_nav1 p{
+                text-align: center;
+                font-size: 15px;
+            }
+            .sub_nav1 li{
+                text-align: center;
+                font-size: 15px;
+                color: rgb(95, 193, 231);
+            }
+        .sub_nav2{
+            width: 450px;
+            height: 200px;
+            display: inline-block;
+            margin: 20px 0px 0px 50px;
+            border-top: 5px solid rgb(111, 181, 209);
+        }
+            .sub_nav2 h1{
+                text-align: center;
+                font-size: 15px;
+            }
+            .sub_nav2 span{
+                font-size: 15px;
+                padding: 0px 3px;
+                color: rgb(95, 193, 231);
+            }
+            .sub_nav2 p{
+                text-align: center;
+                font-size: 15px;
+            }
+            .sub_nav2 li{
+                text-align: center;
+                font-size: 15px;
+                color: rgb(95, 193, 231);
+            }
+    .container .footer{
+        background-color: rgb(37, 85, 129);
+        width: auto;
+        height: 110px;
+        text-align: center;
+    }
+        .footer ul{
+            height: 20px;
+            padding: 50px 0px 0px;
+        }
+            .footer li{
+                display: inline;
+                font-size: 25px;
+                padding: 0px 20px;
+                text-align: center;
+                color: rgb(229, 230, 233);
+                padding: 50px 30px;
+            }
+        .footer h1{
+            font-size: 12px;
+            color: rgb(229, 230, 233);
+            padding-bottom: 50px;
+        }
